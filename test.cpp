@@ -4,6 +4,7 @@
 #include "libtvix.h"  // Adjust include path as needed
 
 int main() {
+    std::cout<<"hello"<<std::endl;
     const char *expr = "builtins.readFile ./LICENSE";
     std::cout << "Evaluating Nix expression: " << expr << std::endl;
 

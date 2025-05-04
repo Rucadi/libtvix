@@ -822,7 +822,7 @@ dependencies = [
 [[package]]
 name = "tvix-eval"
 version = "0.1.0"
-source = "git+https://code.tvl.fyi/#3ae12270727807b86190db3a5eeeb3f1b8c28c47"
+source = "git+https://github.com/Rucadi/tvix#7b33cc87fc4c3d2b4453601a2746fddedf55e4b9"
 dependencies = [
  "bstr",
  "bytes",
@@ -858,7 +858,7 @@ dependencies = [
 [[package]]
 name = "tvix-eval-builtin-macros"
 version = "0.0.1"
-source = "git+https://code.tvl.fyi/#3ae12270727807b86190db3a5eeeb3f1b8c28c47"
+source = "git+https://github.com/Rucadi/tvix#7b33cc87fc4c3d2b4453601a2746fddedf55e4b9"
 dependencies = [
  "proc-macro2",
  "quote",

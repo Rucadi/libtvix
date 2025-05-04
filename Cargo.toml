@@ -8,4 +8,4 @@ crate-type = ["cdylib"]
 
 [dependencies]
 lazy_static = "1.4"
-tvix-eval = { git = "https://code.tvl.fyi", package = "tvix-eval" }
+tvix-eval = { git = "https://github.com/Rucadi/tvix", package = "tvix-eval" }
