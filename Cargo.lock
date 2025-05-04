@@ -326,6 +326,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "libtvix"
+version = "0.1.0"
+dependencies = [
+ "lazy_static",
+ "tvix-eval",
+]
+
+[[package]]
 name = "linux-raw-sys"
 version = "0.9.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -863,14 +871,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn 1.0.109",
-]
-
-[[package]]
-name = "tvix_wasm_api"
-version = "0.1.0"
-dependencies = [
- "lazy_static",
- "tvix-eval",
 ]
 
 [[package]]
